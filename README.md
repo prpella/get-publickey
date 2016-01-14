@@ -1,1 +1,1 @@
-Set $GITHUB_NAME in .bashrc
+Set $GITHUBNAME in .bashrc

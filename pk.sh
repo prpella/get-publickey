@@ -1,5 +1,5 @@
 if [[ $# = 0 ]]; then
-    liste="$GITHUB_NAME"
+    liste="$GITHUBNAME"
 else
     liste="$@"
 fi
