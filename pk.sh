@@ -1,5 +1,5 @@
 if [[ $# = 0 ]]; then
-    liste="prpella"
+    liste="$GITHUB_NAME"
 else
     liste="$@"
 fi
