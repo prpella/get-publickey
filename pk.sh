@@ -8,7 +8,11 @@ else
     liste="$@"
 fi
 
-for name in "$liste"
+for name in $liste
 do
-    curl https://github.com/$name.keys
+    curl --fail https://github.com/$name.keys
+    if [[ $? != 0 ]]; then
+        echo "Sorry, can't find $name on Github"
+    fi 
+
 done
