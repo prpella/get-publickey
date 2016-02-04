@@ -3,7 +3,7 @@
 ## Configuration
 Set `$GITHUBNAME` in .bashrc with
 ```
-export GITHUBNAME=yourgithubname
+export GITHUBNAME=yourGithubName
 ```
 
 ## Get Hints
